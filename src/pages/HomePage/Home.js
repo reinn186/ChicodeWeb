@@ -1,6 +1,6 @@
 import React from 'react';
 import { homeObjOne } from './Data';
-import { InfoSection, Pricing, About } from '../../components';
+import { InfoSection, Pricing, About , Project} from '../../components';
 
 function Home() {
   return (
@@ -8,6 +8,7 @@ function Home() {
       <InfoSection {...homeObjOne} />
       <About/>
       <Pricing />
+      <Project/>
     </>
   );
 }

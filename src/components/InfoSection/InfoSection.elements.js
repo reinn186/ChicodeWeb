@@ -21,7 +21,6 @@ export const InfoColumn = styled.div`
   flex: 1;
   max-width: 50%;
   flex-basis: 50%;
-
   @media screen and (max-width: 768px) {
     max-width: 100%;
     flex-basis: 100%;
@@ -40,7 +39,6 @@ export const Buttons = styled.button`
   box-sizing: border-box;
   border-radius: 5px;
   text-decoration: none;
-
   &:hover {
       background-color: #FC9D05;
   }
@@ -59,10 +57,9 @@ export const Buttons = styled.button`
 
 
 export const TextWrapper = styled.div`
-  max-width: 100px;
+  max-width: 450px;
   padding-top: 0;
   padding-bottom: 60px;
-
   @media screen and (max-width: 768px) {
     padding-bottom: 65px;
   }
@@ -117,5 +114,4 @@ export const SubtitleRight = styled.p`
   line-height: 24px;
   font-weight: 400;
   color: ${({ lightTextDesc2 }) => (lightTextDesc2 ? '#737373' : '#1c2237')};
-
 `;

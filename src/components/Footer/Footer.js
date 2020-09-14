@@ -1,5 +1,10 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
+import Logo from '../chicode 7.png';
+import Logo2 from '../instagram.png';
+import Logo3 from '../mail.png';
+import Logo4 from '../phone.png';
+
 import {
   FaFacebook,
   FaInstagram,
@@ -14,6 +19,7 @@ import {
   FooterSubHeading,
   Form,
   FormInput,
+  FooterLinkGambar,
   FooterLinksContainer,
   FooterLinksWrapper,
   FooterLinkItems,
@@ -25,93 +31,31 @@ import {
   SocialIcon,
   WebsiteRights,
   SocialIcons,
+  FooterHead,
   SocialIconLink
 } from './Footer.elements';
 
 function Footer() {
   return (
     <FooterContainer>
-      <FooterSubscription>
-        <FooterSubHeading>
-          Join our exclusive membership to receive the latest news and trends
-        </FooterSubHeading>
-        <FooterSubText>You can unsubscribe at any time.</FooterSubText>
-        <Form>
-          <FormInput name='email' type='email' placeholder='Your Email' />
-          <Button fontBig>Subscribe</Button>
-        </Form>
-      </FooterSubscription>
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
-            <FooterLinkTitle>About Us</FooterLinkTitle>
-            <FooterLink to='/sign-up'>How it works</FooterLink>
-            <FooterLink to='/'>Testimonials</FooterLink>
-            <FooterLink to='/'>Careers</FooterLink>
-            <FooterLink to='/'>Investors</FooterLink>
-            <FooterLink to='/'>Terms of Service</FooterLink>
+            <FooterLinkTitle>LET'S TALK</FooterLinkTitle>
+            <FooterHead>Ask us anything, project or say hi!</FooterHead>
+            <FooterLink to='/'> <img className="LogoFooter2" src={Logo3} alt="Logo" /> chicoode5@gmail.com</FooterLink>
+            <FooterLink to='/'><img className="LogoFooter3" src={Logo4} alt="Logo" />  +62813 9262 7368</FooterLink>
+            <FooterLink to='/'><img className="LogoFooter3" src={Logo2} alt="Logo" /> chicode5</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
-            <FooterLinkTitle>Contact Us</FooterLinkTitle>
-            <FooterLink to='/'>Contact</FooterLink>
-            <FooterLink to='/'>Support</FooterLink>
-            <FooterLink to='/'>Destinations</FooterLink>
-            <FooterLink to='/'>Sponsorships</FooterLink>
-          </FooterLinkItems>
-        </FooterLinksWrapper>
-        </FooterLinksContainer>
-        <h1>HAII</h1>
-        <FooterLinksContainer>
-        <FooterLinksWrapper>
-          <FooterLinkItems>
-            <FooterLinkTitle>Videos</FooterLinkTitle>
-            <FooterLink to='/'>Submit Video</FooterLink>
-            <FooterLink to='/'>Ambassadors</FooterLink>
-            <FooterLink to='/'>Agency</FooterLink>
-            <FooterLink to='/'>Influencer</FooterLink>
-          </FooterLinkItems>
-          <FooterLinkItems>
-            <FooterLinkTitle>Social Media</FooterLinkTitle>
-            <FooterLink to='/'>Instagram</FooterLink>
-            <FooterLink to='/'>Facebook</FooterLink>
-            <FooterLink to='/'>Youtube</FooterLink>
-            <FooterLink to='/'>Twitter</FooterLink>
-          </FooterLinkItems>
+            <FooterLinkGambar>  <img className="LogoFooter" src={Logo} alt="Logo" />
+          </FooterLinkGambar>
+            <FooterSubText>We write code with Confidence and aim to provide Hope and Inspiration to our partners.</FooterSubText>
+            </FooterLinkItems>
+      
         </FooterLinksWrapper>
       </FooterLinksContainer>
-      <SocialMedia>
-        <SocialMediaWrap>
-          <SocialLogo to='/'>
-            <SocialIcon />
-            ULTRA
-          </SocialLogo>
-          <WebsiteRights>ULTRA © 2020</WebsiteRights>
-          <SocialIcons>
-            <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-              <FaFacebook />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
-              <FaInstagram />
-            </SocialIconLink>
-            <SocialIconLink
-              href={
-                '//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-              }
-              rel='noopener noreferrer'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <FaYoutube />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='Twitter'>
-              <FaTwitter />
-            </SocialIconLink>
-            <SocialIconLink href='/' target='_blank' aria-label='LinkedIn'>
-              <FaLinkedin />
-            </SocialIconLink>
-          </SocialIcons>
-        </SocialMediaWrap>
-      </SocialMedia>
+      
     </FooterContainer>
   );
 }

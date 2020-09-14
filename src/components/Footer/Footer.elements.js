@@ -3,7 +3,7 @@ import { FaMagento } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.div`
-  background-color: #101522;
+  background-color: #fff;
   padding: 4rem 0 2rem 0;
   display: flex;
   flex-direction: column;
@@ -30,15 +30,22 @@ export const FooterSubHeading = styled.p`
 `;
 
 export const FooterSubText = styled.p`
-  margin-bottom: 24px;
+  margin-bottom: 20px;
   font-size: 20px;
+  text-align: center;
+  padding-left:60px;
+  color: #080808;
+
+  @media screen and (max-width: 820px) {
+    width:90%;
+
+  }
 `;
 
 export const Form = styled.form`
   display: flex;
   justify-content: center;
   align-items: center;
-
   @media screen and (max-width: 820px) {
     flex-direction: column;
     width: 80%;
@@ -53,11 +60,9 @@ export const FormInput = styled.input`
   border: none;
   font-size: 16px;
   border: 1px solid #fff;
-
   &::placeholder {
     color: #242424;
   }
-
   @media screen and (max-width: 820px) {
     width: 100%;
     margin: 0 0 16px 0;
@@ -69,7 +74,6 @@ export const FooterLinksContainer = styled.div`
   max-width: 1000px;
   display: flex;
   justify-content: center;
-
   @media screen and (max-width: 820px) {
     padding-top: 32px;
   }
@@ -77,7 +81,6 @@ export const FooterLinksContainer = styled.div`
 
 export const FooterLinksWrapper = styled.div`
   display: flex;
-
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }
@@ -87,28 +90,45 @@ export const FooterLinkItems = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 16px;
-  text-align: left;
-  width: 160px;
+  margin: 20px;
+  text-align: center;
+  width: 400px;
   box-sizing: border-box;
   color: #fff;
-
+  padding-left:0px;
   @media screen and (max-width: 420px) {
     margin: 0;
-    padding: 10px;
+    padding: 40px;
     width: 100%;
   }
 `;
 
 export const FooterLinkTitle = styled.h2`
+  margin-bottom: 1rem;
+  color: #FC9D05;
+  font-size:30px;
+`;
+
+export const FooterHead = styled.h1`
+  color: #080808;
+  font-size: 20px;
+  align-items: left;
+  margin-top: -15px;
+  font-weight: 700;
+`;
+
+export const FooterLinkGambar = styled.h2`
   margin-bottom: 16px;
+  color: #FC9D05;
+  align:center;
 `;
 
 export const FooterLink = styled(Link)`
-  color: #fff;
+  color: #080808;
   text-decoration: none;
-  margin-bottom: 0.5rem;
-
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
   &:hover {
     color: #0467fb;
     transition: 0.3s ease-out;
@@ -127,7 +147,6 @@ export const SocialMediaWrap = styled.div`
   width: 90%;
   max-width: 1000px;
   margin: 40px auto 0 auto;
-
   @media screen and (max-width: 820px) {
     flex-direction: column;
   }

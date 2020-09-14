@@ -1,5 +1,7 @@
 import React from 'react';
 import { Button } from '../../globalStyles';
+import Ellipse1 from '../Ellipse1.png';
+import Ellipse2 from '../Ellipse 2.png';
 import {
   AboutContainer,
   AboutSubscription,
@@ -12,7 +14,11 @@ import {
   AboutLinkItems,
   AboutLinkItems2,
   AboutLinkTitle,
+  AboutLinkTitle2,
+  AboutLinkLogo,
   AboutLink,
+  AboutOur,
+  AboutText,
   Subtitle,
   SocialMedia,
   SocialMediaWrap,
@@ -30,30 +36,27 @@ function About() {
         <AboutLinksWrapper>
           <AboutLinkItems>
             <AboutLinkTitle>About Us</AboutLinkTitle>
-            <Subtitle>Chicode is a developer team based in the city of Yogyakarta. Chicode is a developer team and we try to solve problems that exist in your company using research, design and writing code.</Subtitle>
+            <Subtitle>Chicode is a developer team based in the city of Yogyakarta. Chicode is a developer team and we try to solve problems that exist in your company using research, design and writing code. </Subtitle>
             </AboutLinkItems>
           <AboutLinkItems>
             <AboutLinkTitle>Do you have a problem  ?</AboutLinkTitle>
             <Subtitle>Let’s discuss with us </Subtitle>
+            <AboutLink>chicode7@gmail.com</AboutLink>
           </AboutLinkItems>
         </AboutLinksWrapper>
         </AboutLinksContainer>
-        <h1>HAII</h1>
+        <AboutOur>Our Teams</AboutOur>
         <AboutLinksContainer>
         <AboutLinksWrapper>
           <AboutLinkItems2>
-            <AboutLinkTitle>Videos</AboutLinkTitle>
-            <AboutLink to='/'>Submit Video</AboutLink>
-            <AboutLink to='/'>Ambassadors</AboutLink>
-            <AboutLink to='/'>Agency</AboutLink>
-            <AboutLink to='/'>Influencer</AboutLink>
+            <AboutLinkLogo><img className="Ellipse1" src={Ellipse1} alt="Andri"/></AboutLinkLogo>
+            <AboutLinkTitle2>Reinn</AboutLinkTitle2>
+            <AboutText>UI/UX&Frontend Designer</AboutText>
           </AboutLinkItems2>
           <AboutLinkItems2>
-            <AboutLinkTitle>Social Media</AboutLinkTitle>
-            <AboutLink to='/'>Instagram</AboutLink>
-            <AboutLink to='/'>Facebook</AboutLink>
-            <AboutLink to='/'>Youtube</AboutLink>
-            <AboutLink to='/'>Twitter</AboutLink>
+          <AboutLinkLogo><img className="Ellipse1" src={Ellipse2} alt="Fandi"/></AboutLinkLogo>
+            <AboutLinkTitle2>Fandi</AboutLinkTitle2>
+            <AboutText>Fullstack Developer</AboutText>
           </AboutLinkItems2>
         </AboutLinksWrapper>
       </AboutLinksContainer>    

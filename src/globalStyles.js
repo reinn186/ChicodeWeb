@@ -11,11 +11,51 @@ const GlobalStyle = createGlobalStyle`
  .Logo{
    width:190px;
    height:42px;
+
+ 
  }
+ .LogoFooter{
+  width:550px;
+  height:106px;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    /* justify-items:center; */
+   }
+}
+.LogoFooter2{
+  width:21px;
+  height:15px;
+}
+.LogoFooter3{
+  width:24px;
+  height:24px;
+}
 
  .Span1{
    color:red;
  }
+
+.Ellipse1{
+  width:150px;
+  height:150px;
+}
+
+.Pict1{
+  width:400px;
+  height:321px;
+
+  
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    
+
+    &:hover {
+      transform: none;
+    }
+  }
+
+}
 
 `;
 

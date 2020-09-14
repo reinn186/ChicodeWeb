@@ -7,6 +7,7 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
+  color:#080808;  
 `;
 
 export const AboutContainer = styled.div`
@@ -84,6 +85,7 @@ export const AboutLinksContainer = styled.div`
 
 export const AboutLinksWrapper = styled.div`
   display: flex;
+  margin-top: -100px;
 
   @media screen and (max-width: 820px) {
     flex-direction: column;
@@ -113,10 +115,10 @@ export const AboutLinkItems2 = styled.div`
   
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 100px;
   text-align: left;
-  width: 40px;
+  width: 126px;
   box-sizing: border-box;
   color: #fff;
 
@@ -127,7 +129,21 @@ export const AboutLinkItems2 = styled.div`
   }
 `;
 
-export const AboutLinkTitle = styled.h2`
+export const AboutLinkTitle = styled.h1`
+  margin-bottom: 10px;
+  color:#080808;
+  
+ 
+`;
+
+export const AboutLinkTitle2 = styled.h1`
+  margin-bottom: 10px;
+  color:#080808;
+  font-size: 24px;
+  font-weight: 500;
+`;
+
+export const AboutLinkLogo = styled(Link)`
   margin-bottom: 16px;
 `;
 
@@ -135,11 +151,25 @@ export const AboutLink = styled(Link)`
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  font-size: 20px;
+  text-decoration: underline;
+
 
   &:hover {
-    color: #0467fb;
+    color: #080808;
     transition: 0.3s ease-out;
   }
+`;
+
+export const AboutText = styled.div`
+  color: #080808;
+  font-weight: 400;
+  text-align:center;
+`;
+
+export const AboutOur = styled.h1`
+ color: #080808;
+ margin-bottom: 30px;
 `;
 
 export const SocialMedia = styled.section`

@@ -5,14 +5,16 @@ import { Container } from '../../globalStyles';
 
 export const Nav = styled.nav`
   background: #fff;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2 rem;
-  position: sticky;
   top: 0;
   z-index: 999;
+  width: 100%;
+  position: fixed;
+
 
 `;
 
@@ -21,6 +23,7 @@ export const NavbarContainer = styled(Container)`
   display: flex;
   justify-content:stretch;
   height: 80px;
+  
 
   ${Container}
 `;
@@ -81,7 +84,7 @@ export const NavMenu = styled.ul`
 
 // Untuk ketinggian border bottom
 export const NavItem = styled.li`
-  height: 80px;
+  height: 60px;
   border-bottom: 2px solid  #080808 transparent;
   
   

@@ -3,6 +3,9 @@ import { Button } from '../../globalStyles';
 import { GiCrystalBars } from 'react-icons/gi';
 import { GiCutDiamond, GiRock } from 'react-icons/gi';
 import { IconContext } from 'react-icons/lib';
+import Icon from '../Pencil.png';
+import Icon2 from '../whh_website.png';
+import Icon3 from '../clarity_mobile-phone-solid.png';
 import {
   PricingSection,
   PricingWrapper,
@@ -15,7 +18,8 @@ import {
   PricingCardCost,
   PricingCardLength,
   PricingCardFeatures,
-  PricingCardFeature
+  PricingCardFeature,
+  PricingHeading1
 } from './Pricing.elements';
 
 function Pricing() {
@@ -23,54 +27,40 @@ function Pricing() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <PricingSection>
         <PricingWrapper>
-          <PricingHeading>Our Services</PricingHeading>
+          <PricingHeading>Services</PricingHeading>
+          <PricingHeading1>WHAT WE DO ?</PricingHeading1>
           <PricingContainer>
-            <PricingCard to='/sign-up'>
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiRock />
+                  <img classname="Icon" src={Icon} alt="Icon"/>
                 </PricingCardIcon>
-                <PricingCardPlan>Starter Pack</PricingCardPlan>
-                <PricingCardCost>$99.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>UI/UX Designer</PricingCardPlan>
                 <PricingCardFeatures>
-                  <PricingCardFeature>100 New Users</PricingCardFeature>
-                  <PricingCardFeature>$10,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Retargeting analytics</PricingCardFeature>
+                  <PricingCardFeature>Tell us what you want to make and we will provide the best solution in design.</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCrystalBars />
+                <img classname="Icon" src={Icon3} alt="Icon2"/>
                 </PricingCardIcon>
-                <PricingCardPlan>Gold Rush</PricingCardPlan>
-                <PricingCardCost>$299.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Mobile Application</PricingCardPlan>
                 <PricingCardFeatures>
-                  <PricingCardFeature>1000 New Users</PricingCardFeature>
-                  <PricingCardFeature>$50,000 Budget</PricingCardFeature>
-                  <PricingCardFeature>Lead Gen Analytics</PricingCardFeature>
+                  <PricingCardFeature> We create mobile applications using Java / React Native / Flutter.</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
-            <PricingCard to='/sign-up'>
+            <PricingCard>
               <PricingCardInfo>
                 <PricingCardIcon>
-                  <GiCutDiamond />
+                <img classname="Icon" src={Icon2} alt="Icon3"/>
                 </PricingCardIcon>
-                <PricingCardPlan>Diamond Kings</PricingCardPlan>
-                <PricingCardCost>$999.99</PricingCardCost>
-                <PricingCardLength>per month</PricingCardLength>
+                <PricingCardPlan>Website</PricingCardPlan>
                 <PricingCardFeatures>
-                  <PricingCardFeature>Unlimited Users</PricingCardFeature>
-                  <PricingCardFeature>Unlimited Budget</PricingCardFeature>
-                  <PricingCardFeature>24/7 Support</PricingCardFeature>
+                  <PricingCardFeature> Tell us the website that you want to create and we will build using Laravel and ReactJS.</PricingCardFeature>
                 </PricingCardFeatures>
-                <Button primary>Choose Plan</Button>
               </PricingCardInfo>
             </PricingCard>
           </PricingContainer>
