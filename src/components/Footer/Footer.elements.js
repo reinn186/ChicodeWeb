@@ -120,7 +120,7 @@ export const FooterHead = styled.h1`
 export const FooterLinkGambar = styled.h2`
   margin-bottom: 16px;
   color: #FC9D05;
-  align:center;
+  /* align:center; */
 `;
 
 export const FooterLink = styled(Link)`
