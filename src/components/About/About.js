@@ -45,7 +45,14 @@ function About() {
           </AboutLinkItems>
         </AboutLinksWrapper>
         </AboutLinksContainer>
-        <AboutOur>Our Teams</AboutOur>
+        <AboutLinksContainer>
+        {/* <AboutLinksWrapper>
+          <AboutLinkItems> */}
+            <AboutOur>Our Teams</AboutOur>
+        {/* </AboutLinkItems>
+        </AboutLinksWrapper> */}
+        </AboutLinksContainer>
+        
         <AboutLinksContainer>
         <AboutLinksWrapper>
           <AboutLinkItems2>

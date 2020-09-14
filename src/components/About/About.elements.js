@@ -94,10 +94,11 @@ export const AboutLinksWrapper = styled.div`
 
 export const AboutLinkItems = styled.div`
   padding-left: 50px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin: 100px;
+  margin: 50px;
   text-align: left;
   width: 450px;
   box-sizing: border-box;
@@ -105,7 +106,7 @@ export const AboutLinkItems = styled.div`
 
   @media screen and (max-width: 420px) {
     margin: 0;
-    padding: 10px;
+    padding: 30px;
     width: 100%;
   }
 `;
@@ -124,7 +125,7 @@ export const AboutLinkItems2 = styled.div`
 
   @media screen and (max-width: 420px) {
     margin: 0;
-    padding: 10px;
+    padding: 50px;
     width: 100%;
   }
 `;

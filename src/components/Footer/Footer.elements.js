@@ -97,7 +97,7 @@ export const FooterLinkItems = styled.div`
   color: #fff;
   padding-left:0px;
   @media screen and (max-width: 420px) {
-    margin: 0;
+    margin-top: -50px;
     padding: 40px;
     width: 100%;
   }
