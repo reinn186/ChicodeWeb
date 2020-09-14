@@ -59,6 +59,9 @@ function Footer() {
             <FooterLink to='/'>Sponsorships</FooterLink>
           </FooterLinkItems>
         </FooterLinksWrapper>
+        </FooterLinksContainer>
+        <h1>HAII</h1>
+        <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>
             <FooterLinkTitle>Videos</FooterLinkTitle>

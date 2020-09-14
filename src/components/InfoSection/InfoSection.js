@@ -57,7 +57,14 @@ function InfoSection({
                 <Img src={img} alt={alt} />
               </ImgWrapper>
             </InfoColumn>
+            <InfoColumn>
+              
+            <Heading lightText={lightText}>{headline}<span className="Span1">{headline2}</span><span>{headline3}</span></Heading>
+                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
+                <SubtitleRight lightTextDesc2={lightTextDesc2}>{description2}</SubtitleRight>
+                </InfoColumn>
           </InfoRow>
+          
         </Container>
       </InfoSec>
     </>
