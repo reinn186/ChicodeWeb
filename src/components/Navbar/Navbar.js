@@ -48,22 +48,22 @@ function Navbar() {
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
                 <NavLinks to='/' onClick={closeMobileMenu}>
-                  Home
+                  HOME
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks exact to='/About' onClick={closeMobileMenu}>
-                  About Us
+                  ABOUT
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to='/' onClick={closeMobileMenu}>
-                  Projects
+                  PROJECTS
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks to='/' onClick={closeMobileMenu}>
-                  Contact
+                  CONTACT
                 </NavLinks>
               </NavItem>
             </NavMenu>
