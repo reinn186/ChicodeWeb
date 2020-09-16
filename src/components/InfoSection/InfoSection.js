@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Button } from '../../globalStyles';
+import Panda from '../Panda.png';
+import Andri from '../AndriFix.png';
 import {
   InfoSec,
   InfoRow,
@@ -38,7 +40,7 @@ function InfoSection({
     <>
       <InfoSec lightBg={lightBg}>
         <Container>
-          <InfoRow imgStart={imgStart}>
+          <InfoRow>
             <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
@@ -53,13 +55,12 @@ function InfoSection({
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
-              <ImgWrapper start={start}>
-                <Img src={img} alt={alt} />
+              <ImgWrapper>
+              <img src={Panda} className="GambarOrang" alt="Logo" /> 
+            <img src={Andri} className="GambarOrang" alt="Logo" />
               </ImgWrapper>
             </InfoColumn>
-            
           </InfoRow>
-          
         </Container>
       </InfoSec>
     </>

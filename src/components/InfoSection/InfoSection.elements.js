@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoSec = styled.div`
   color: #fff;
-  padding: 160px 0;
+  padding: 68px 0;
   background: ${({ lightBg }) => (lightBg ? '#fff' : '#FC9D05')};
 `;
 
@@ -69,6 +69,8 @@ export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
   justify-content: ${({ start }) => (start ? 'flex-start' : 'flex-end')};
+  margin-bottom: -69px;
+  margin-top: 69px;
 `;
 
 export const TopLine = styled.div`

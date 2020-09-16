@@ -23,6 +23,16 @@ const GlobalStyle = createGlobalStyle`
     /* justify-items:center; */
    }
 }
+
+.GambarOrang{
+  width:280px;
+  height:528px;
+  @media screen and (max-width: 768px) {
+    width:140px;
+    height:264px;
+  }
+}
+
 .LogoFooter2{
   width:21px;
   height:15px;
