@@ -29,12 +29,18 @@ export const ProjectHeading = styled.h1`
   font-size: 32px;
   margin-bottom: 10px;
   font-weight:700;
+
+  @media screen and (max-width: 960px) {
+    width: 50%;
+  }
+
 `;
 
 export const ProjectHeading1 = styled.h1`
   color: #080808;
-  font-size: 36px;
+  font-size: 32px;
   margin-bottom: 24px;
+  align-items: center;
 
 `;
 

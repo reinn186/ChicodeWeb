@@ -52,17 +52,17 @@ function Navbar() {
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}>
+                <NavLinks exact to='/About' onClick={closeMobileMenu}>
                   About Us
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}>
+                <NavLinks to='/' onClick={closeMobileMenu}>
                   Projects
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}>
+                <NavLinks to='/' onClick={closeMobileMenu}>
                   Contact
                 </NavLinks>
               </NavItem>
