@@ -1,8 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Container, Button } from '../../globalStyles';
 import Panda from '../Panda.png';
 import Andri from '../AndriFix.png';
+import { HashLink as Link} from 'react-router-hash-link';
 import {
   InfoSec,
   InfoRow,
@@ -47,8 +48,8 @@ function InfoSection({
                 <Heading lightText={lightText}>{headline}<span className="Span1">{headline2}</span><span>{headline3}</span></Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                 <SubtitleRight lightTextDesc2={lightTextDesc2}>{description2}</SubtitleRight>
-                <Link to='/'>
-                  <Buttons big fontBig primary={primary}>
+                <Link to='/#section4'>
+                  <Buttons  big fontBig primary={primary}>
                     {buttonLabel}
                   </Buttons>
                 </Link>

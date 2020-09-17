@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 import { HashLink } from "react-router-hash-link";
+import { animateScroll as scroll } from "react-scroll";
 
 
 export const Nav = styled.nav`
@@ -147,6 +148,7 @@ export const StyledLinks = styled(HashLink)`
   font-family: montserrat;
   @media (max-width: 980px) {
     font-size: 22px;
+    
   }
 `;
 
