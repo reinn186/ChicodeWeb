@@ -64,11 +64,11 @@ export const PricingCard = styled.div`
     margin: 24px;
   }
 
-  &:hover {
+  /* &:hover {
     transform: scale(1.06);
     transition: all 0.3s ease-out;
     background-color: #FC9D05;
-  }
+  } */
 
   @media screen and (max-width: 960px) {
     width: 90%;
