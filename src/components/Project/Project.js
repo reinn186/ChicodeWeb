@@ -30,7 +30,7 @@ import {
 function Project() {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
-      <ProjectSection id="section3">
+      <ProjectSection id="Projects">
         <ProjectWrapper>
           <ProjectHeading>SELECTED PROJECTS</ProjectHeading>
           <ProjectContainer>

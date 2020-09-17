@@ -32,7 +32,7 @@ import {
 
 function About() {
   return (
-    <AboutContainer id="section2">
+    <AboutContainer id="About">
       <AboutLinksContainer>
         <AboutLinksWrapper>
           <AboutLinkItems>

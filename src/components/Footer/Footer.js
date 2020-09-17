@@ -37,7 +37,7 @@ import {
 
 function Footer() {
   return (
-    <FooterContainer id="section4">
+    <FooterContainer id="Contacts">
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>

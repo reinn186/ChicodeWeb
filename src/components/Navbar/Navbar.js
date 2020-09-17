@@ -42,31 +42,31 @@ function Navbar() {
       <IconContext.Provider value={{ color: '#FC9D05' }}>
         <Nav>
           <NavbarContainer>
-            <NavLogo to='/' onClick={closeMobileMenu}>
-              <img className="Logo" src={Logo} alt="Logo" />
+            <NavLogo  onClick={closeMobileMenu}>
+            <StyledLinks to='/#Home'><img className="Logo" src={Logo} alt="Logo" /></StyledLinks >
             </NavLogo>
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
-              <NavItem>
+              <NavItem to="/#Home" smooth>
                 <NavLinks onClick={closeMobileMenu}>
-                <StyledLinks to="/#section1" smooth>HOME</StyledLinks>
+                <StyledLinks >HOME</StyledLinks>
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              <NavItem to="/#About" smooth>
                 <NavLinks onClick={closeMobileMenu}>
-                <StyledLinks to="/#section2" smooth> ABOUT</StyledLinks>
+                <StyledLinks > ABOUT</StyledLinks>
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              <NavItem to="/#Projects" smooth>
                 <NavLinks onClick={closeMobileMenu}>
-                <StyledLinks to="/#section3" smooth> PROJECTS </StyledLinks>
+                <StyledLinks> PROJECTS </StyledLinks>
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              <NavItem to="/#Contacts" smooth>
                 <NavLinks onClick={closeMobileMenu}>
-                <StyledLinks to="/#section4" smooth> CONTACT </StyledLinks>
+                <StyledLinks> CONTACT </StyledLinks>
                 </NavLinks>
               </NavItem>
             </NavMenu>

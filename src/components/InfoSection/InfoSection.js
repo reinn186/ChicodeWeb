@@ -39,7 +39,7 @@ function InfoSection({
 }) {
   return (
     <>
-      <InfoSec lightBg={lightBg} id="section1">
+      <InfoSec lightBg={lightBg} id="Home">
         <Container>
           <InfoRow>
             <InfoColumn>
@@ -48,7 +48,7 @@ function InfoSection({
                 <Heading lightText={lightText}>{headline}<span className="Span1">{headline2}</span><span>{headline3}</span></Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
                 <SubtitleRight lightTextDesc2={lightTextDesc2}>{description2}</SubtitleRight>
-                <Link to='/#section4'>
+                <Link to='/#Contacts'>
                   <Buttons  big fontBig primary={primary}>
                     {buttonLabel}
                   </Buttons>

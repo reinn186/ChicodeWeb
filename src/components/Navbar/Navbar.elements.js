@@ -75,20 +75,22 @@ export const NavMenu = styled.ul`
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 90vh;
+    height: 110vh;
     position: absolute;
-    top: 80px;
+    top: 60px;
     left: ${({ click }) => (click ? 0 : '-100%')};
     opacity: 1;
     transition: all 0.5s ease;
     background: #FC9D05;
+    position: fixed;
   }
 `;
 
 // Untuk ketinggian border bottom
-export const NavItem = styled.li`
+export const NavItem = styled(HashLink)`
   height: 60px;
   border-bottom: 2px solid  #080808 transparent;
+  text-decoration:none;
   
   
 
