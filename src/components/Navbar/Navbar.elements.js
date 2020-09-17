@@ -3,6 +3,24 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { Container } from '../../globalStyles';
 
+import { HashLink } from "react-router-hash-link";
+
+
+export const StyledLinks = styled(HashLink)`
+  text-align: start;
+  grid-area: 1/2/2/3;
+  line-height: 1.8rem;
+  position: relative;
+  justify-self: start;
+  align-self: start;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #e3d5d5;
+  @media (min-width: 1200px) {
+    font-size: 1.8rem;
+  }
+`;
+
 export const Nav = styled.nav`
   background: rgba(255,255,255,0.9);
   height: 60px;

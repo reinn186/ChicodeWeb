@@ -4,7 +4,7 @@ import Logo from '../chicode 7.png';
 import Logo2 from '../instagram.png';
 import Logo3 from '../mail.png';
 import Logo4 from '../phone.png';
-
+import { HashLink as Link } from 'react-router-hash-link';
 import {
   FaFacebook,
   FaInstagram,
@@ -37,7 +37,7 @@ import {
 
 function Footer() {
   return (
-    <FooterContainer>
+    <FooterContainer id="section4">
       <FooterLinksContainer>
         <FooterLinksWrapper>
           <FooterLinkItems>

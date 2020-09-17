@@ -2,6 +2,7 @@ import React from 'react';
 import { Button } from '../../globalStyles';
 import Ellipse1 from '../Ellipse1.png';
 import Ellipse2 from '../Ellipse 2.png';
+import { HashLink as Link } from 'react-router-hash-link';
 import {
   AboutContainer,
   AboutSubscription,
@@ -31,11 +32,12 @@ import {
 
 function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id="section2">
       <AboutLinksContainer>
         <AboutLinksWrapper>
           <AboutLinkItems>
             <AboutLinkTitle>About Us</AboutLinkTitle>
+           
             <Subtitle>Chicode is a developer team based in the city of Yogyakarta. Chicode is a developer team and we try to solve problems that exist in your company using research, design and writing code. </Subtitle>
             </AboutLinkItems>
           <AboutLinkItems>
@@ -67,7 +69,9 @@ function About() {
           </AboutLinkItems2>
         </AboutLinksWrapper>
       </AboutLinksContainer>    
+      
     </AboutContainer>
+    
   );
 }
 

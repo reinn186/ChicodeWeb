@@ -16,9 +16,11 @@ function App() {
       <ScrollToTop />
       <Navbar />
       <Switch>
+      <div class="main">
         <Route path='/' exact component={Home} />
         <Route path= '/About' exact component={About} />
         <Route path= '/Project' exact component={Project} />
+        </div>
         {/* <Route path= '/Contact' exact component={Contact} /> */}
       </Switch>
       <Footer />

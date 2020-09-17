@@ -3,6 +3,8 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { Button } from '../../globalStyles';
 import Logo from '../chicode 7.png';
+import { HashLink } from "react-router-hash-link";
+
 import {
   Nav,
   NavbarContainer,
@@ -11,6 +13,7 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
+  StyledLinks,
 } from './Navbar.elements';
 
 function Navbar() {
@@ -47,23 +50,23 @@ function Navbar() {
             </MobileIcon>
             <NavMenu onClick={handleClick} click={click}>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
-                  HOME
+                <NavLinks onClick={closeMobileMenu}>
+                <StyledLinks to="/#section1">HOME</StyledLinks>
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks exact to='/About' onClick={closeMobileMenu}>
-                  ABOUT
+                <NavLinks onClick={closeMobileMenu}>
+                <StyledLinks to="/#section2"> ABOUT</StyledLinks>
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
-                  PROJECTS
+                <NavLinks onClick={closeMobileMenu}>
+                <StyledLinks to="/#section3"> PROJECTS </StyledLinks>
                 </NavLinks>
               </NavItem>
               <NavItem>
-                <NavLinks to='/' onClick={closeMobileMenu}>
-                  CONTACT
+                <NavLinks onClick={closeMobileMenu}>
+                <StyledLinks to="/#section4"> CONTACT </StyledLinks>
                 </NavLinks>
               </NavItem>
             </NavMenu>

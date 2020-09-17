@@ -7,6 +7,7 @@ import Icon from '../Pencil.png';
 import Icon2 from '../whh_website.png';
 import Icon3 from '../clarity_mobile-phone-solid.png';
 import Pict1 from '../Rectangle 8.png';
+import { HashLink as Link } from 'react-router-hash-link';
 import {
   ProjectSection,
   ProjectWrapper,
@@ -29,7 +30,7 @@ import {
 function Project() {
   return (
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
-      <ProjectSection>
+      <ProjectSection id="section3">
         <ProjectWrapper>
           <ProjectHeading>SELECTED PROJECTS</ProjectHeading>
           <ProjectContainer>
