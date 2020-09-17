@@ -43,7 +43,7 @@ function About() {
           <AboutLinkItems>
             <AboutLinkTitle>Do you have a problem  ?</AboutLinkTitle>
             <Subtitle>Let’s discuss with us </Subtitle>
-            <AboutLink>chicode7@gmail.com</AboutLink>
+            <AboutLink>chicodeyk5@gmail.com</AboutLink>
           </AboutLinkItems>
         </AboutLinksWrapper>
         </AboutLinksContainer>

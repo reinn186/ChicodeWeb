@@ -36,11 +36,10 @@ function Project() {
           <ProjectContainer>
             <ProjectCard>
               <img className="Pict1" src={Pict1} alt="Picture1"/>
-              <ProjectHeadline>Astra International</ProjectHeadline>
+              {/* <ProjectHeadline>Astra International</ProjectHeadline>
               <ProjectSubtitle>2018</ProjectSubtitle>
-              <ProjectLink>View Project</ProjectLink>
+              <ProjectLink>View Project</ProjectLink> */}
             </ProjectCard>
-            
             {/* <ProjectSubtitle>2018</ProjectSubtitle>
             <ProjectLink>View Project</ProjectLink> */}
             <ProjectCard>

@@ -43,9 +43,9 @@ function Footer() {
           <FooterLinkItems>
             <FooterLinkTitle>LET'S TALK</FooterLinkTitle>
             <FooterHead>Ask us anything, project or say hi!</FooterHead>
-            <FooterLink to='/'> <img className="LogoFooter2" src={Logo3} alt="Logo" /> chicoode5@gmail.com</FooterLink>
+            <FooterLink to='/'> <img className="LogoFooter2" src={Logo3} alt="Logo" /> chicodeyk5@gmail.com</FooterLink>
             <FooterLink to='/'><img className="LogoFooter3" src={Logo4} alt="Logo" />  +62813 9262 7368</FooterLink>
-            <FooterLink to='/'><img className="LogoFooter3" src={Logo2} alt="Logo" /> chicode5</FooterLink>
+            <FooterLink to='/'><img className="LogoFooter3" src={Logo2} alt="Logo" /> chicodeyk55</FooterLink>
           </FooterLinkItems>
           <FooterLinkItems>
             <FooterLinkGambar>  <img className="LogoFooter" src={Logo} alt="Logo" />
