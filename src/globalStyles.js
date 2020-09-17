@@ -24,6 +24,23 @@ const GlobalStyle = createGlobalStyle`
    }
 }
 
+.TextHide1{
+  display:none;
+}
+
+.TextHide2{
+  display:none;
+}
+
+
+.TextHide3{
+  display:none;
+}
+
+.TextHide4{
+  display:none;
+}
+
 .GambarOrang{
   width:280px;
   height:528px;
@@ -31,6 +48,45 @@ const GlobalStyle = createGlobalStyle`
     width:140px;
     height:264px;
   }
+}
+
+
+.GambarOrang2{
+  width:280px;
+  height:528px;
+  @media screen and (max-width: 768px) {
+    width:140px;
+    height:264px;
+  }
+}
+
+.GambarOrang:hover + .TextHide1 {
+  display:block;
+  color:black;
+  transform: scale(1.06);
+    transition: all 0.3s ease-out;
+}
+
+
+.GambarOrang2:hover + .TextHide2 {
+ display:block;
+  color:black;
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+
+}
+
+
+.GambarOrang:hover + .TextHide3 {
+  display:block;
+  color:black;
+}
+
+
+.GambarOrang2:hover + .TextHide4 {
+ display:block;
+  color:black;
+
 }
 
 .LogoFooter2{

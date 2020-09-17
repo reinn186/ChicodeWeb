@@ -73,6 +73,15 @@ export const ImgWrapper = styled.div`
   margin-top: 69px;
 `;
 
+
+export const textWrapperPop = styled.div`
+  max-width: 40px;
+  display: block;
+  justify-content: center;
+  
+`;
+
+
 export const TopLine = styled.div`
   color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
   font-size: 18px;
@@ -100,6 +109,19 @@ export const Heading = styled.h1`
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#1c2237')};
  `;
 
+
+export const Nama = styled.h1`
+  margin-top:40px;
+  margin-bottom: 24px;
+  font-size: 24px;
+  text-align:center;
+  line-height: 1.1;
+  font-weight: 600;
+  color:black;
+  `;
+
+
+
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 10px;
@@ -109,6 +131,15 @@ export const Subtitle = styled.p`
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#737373' : '#1c2237')};
 `;
 
+export const SubtitleNama = styled.p`
+  max-width: 440px;
+  margin-top: -20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align:center;
+  color: black;
+`;
 export const SubtitleRight = styled.p`
   max-width: 440px;
   margin-bottom: 10px;

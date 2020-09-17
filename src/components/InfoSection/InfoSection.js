@@ -14,7 +14,9 @@ import {
   Subtitle,
   SubtitleRight,
   ImgWrapper,
-  Img,
+  Nama,
+  textWrapperPop,
+  SubtitleNama,
   Buttons,
 } from './InfoSection.elements';
 
@@ -58,7 +60,15 @@ function InfoSection({
             <InfoColumn>
               <ImgWrapper>
               <img src={Panda} className="GambarOrang" alt="Logo" /> 
-            <img src={Andri} className="GambarOrang" alt="Logo" />
+              <textWrapperPop className="TextHide1">
+              <Nama>Fandi</Nama>  
+              <SubtitleNama >Fullstack Developer</SubtitleNama>
+              </textWrapperPop>
+            <img src={Andri} className="GambarOrang2" alt="Logo" />
+            <textWrapperPop className="TextHide2">
+            <Nama>Reinn</Nama>  
+            <SubtitleNama >UI/UX & Frontend Developer</SubtitleNama>
+            </textWrapperPop>
               </ImgWrapper>
             </InfoColumn>
           </InfoRow>
