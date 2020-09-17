@@ -51,22 +51,22 @@ function Navbar() {
             <NavMenu onClick={handleClick} click={click}>
               <NavItem to="/#Home" smooth>
                 <NavLinks onClick={closeMobileMenu}>
-                <StyledLinks >HOME</StyledLinks>
+                <StyledLinks >Home</StyledLinks>
                 </NavLinks>
               </NavItem>
               <NavItem to="/#About" smooth>
                 <NavLinks onClick={closeMobileMenu}>
-                <StyledLinks > ABOUT</StyledLinks>
+                <StyledLinks > About</StyledLinks>
                 </NavLinks>
               </NavItem>
               <NavItem to="/#Projects" smooth>
                 <NavLinks onClick={closeMobileMenu}>
-                <StyledLinks> PROJECTS </StyledLinks>
+                <StyledLinks> Projects </StyledLinks>
                 </NavLinks>
               </NavItem>
               <NavItem to="/#Contacts" smooth>
                 <NavLinks onClick={closeMobileMenu}>
-                <StyledLinks> CONTACT </StyledLinks>
+                <StyledLinks> Contacts </StyledLinks>
                 </NavLinks>
               </NavItem>
             </NavMenu>

@@ -52,8 +52,8 @@ const GlobalStyle = createGlobalStyle`
 }
 
 .Pict1{
-  width:400px;
-  height:321px;
+  width:300px;
+  height:200px;
 
   
   @media screen and (max-width: 960px) {

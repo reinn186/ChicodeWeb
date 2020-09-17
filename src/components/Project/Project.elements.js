@@ -26,12 +26,17 @@ export const ProjectWrapper = styled.div`
 
 export const ProjectHeading = styled.h1`
   color: #080808;
-  font-size: 32px;
-  margin-bottom: 10px;
+  font-size: 28px;
+  margin-top:-50px;
+  margin-bottom:50px;
   font-weight:700;
 
   @media screen and (max-width: 960px) {
+    font-size: 20px;
+    margin-top:-50px;
+    margin-bottom:20px;
     width: 50%;
+    text-align: center;
   }
 
 `;
@@ -41,6 +46,7 @@ export const ProjectHeading1 = styled.h1`
   font-size: 32px;
   margin-bottom: 24px;
   align-items: center;
+  
 
 `;
 
@@ -61,8 +67,8 @@ export const ProjectContainer = styled.div`
 export const ProjectCard = styled.div`
   background: #FC9D05;
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.2);
-  width: 400px;
-  height: 420px;
+  width: 300px;
+  height: 300px;
   text-decoration: none;
   border-radius: 10px;
 
@@ -131,9 +137,11 @@ export const ProjectCardFeature = styled.li`
 `;
 
 export const ProjectHeadline = styled.h1`
-  margin-top:15x;
+  padding-top:25px;
   font-size : 24px;
   font-weight: 700;
+  text-align: center;
+  
   
 `;
 

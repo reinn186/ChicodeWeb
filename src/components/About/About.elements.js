@@ -7,6 +7,7 @@ export const Subtitle = styled.p`
   font-size: 18px;
   line-height: 24px;
   font-weight: 400;
+  text-align:justify;
   color:#080808;  
 `;
 
@@ -99,6 +100,7 @@ export const AboutLinkItems = styled.div`
   flex-direction: column;
   align-items: flex-start;
   margin: 50px;
+  margin-left: 120px;
   text-align: left;
   width: 450px;
   box-sizing: border-box;
@@ -133,8 +135,17 @@ export const AboutLinkItems2 = styled.div`
 export const AboutLinkTitle = styled.h1`
   margin-bottom: 10px;
   color:#080808;
+  font-size:32px;
   
- 
+`;
+
+export const AboutLinkTitle3 = styled.h1`
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size:28px;
+  outline-color: blue;
+  color:#080808;
+
 `;
 
 export const AboutLinkTitle2 = styled.h1`
@@ -142,6 +153,7 @@ export const AboutLinkTitle2 = styled.h1`
   color:#080808;
   font-size: 24px;
   font-weight: 500;
+  
 `;
 
 export const AboutLinkLogo = styled(Link)`

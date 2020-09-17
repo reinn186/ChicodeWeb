@@ -144,12 +144,12 @@ export const StyledLinks = styled(HashLink)`
   position: relative;
   /* justify-self: start; */
   /* align-self: start; */
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
   color: #080808;
   font-family: montserrat;
   @media (max-width: 980px) {
-    font-size: 22px;
+    font-size: 16px;
     
   }
 `;

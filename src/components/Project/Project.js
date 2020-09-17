@@ -32,22 +32,22 @@ function Project() {
     <IconContext.Provider value={{ color: '#a9b3c1', size: 64 }}>
       <ProjectSection id="Projects">
         <ProjectWrapper>
-          <ProjectHeading>SELECTED PROJECTS</ProjectHeading>
+          <ProjectHeading>Selected Projects</ProjectHeading>
           <ProjectContainer>
             <ProjectCard>
               <img className="Pict1" src={Pict1} alt="Picture1"/>
-              {/* <ProjectHeadline>Astra International</ProjectHeadline>
-              <ProjectSubtitle>2018</ProjectSubtitle>
+              <ProjectHeadline>- Coming Soon -</ProjectHeadline>
+              {/* <ProjectSubtitle>2018</Proj-ectSubtitle>
               <ProjectLink>View Project</ProjectLink> */}
             </ProjectCard>
             {/* <ProjectSubtitle>2018</ProjectSubtitle>
             <ProjectLink>View Project</ProjectLink> */}
-            <ProjectCard>
+            {/* <ProjectCard>
               <img className="Pict1" src={Pict1} alt="Picture1"/>
             </ProjectCard>
             <ProjectCard>
               <img className="Pict1" src={Pict1} alt="Picture1"/>
-            </ProjectCard>
+            </ProjectCard> */}
           </ProjectContainer>
         </ProjectWrapper>
       </ProjectSection>

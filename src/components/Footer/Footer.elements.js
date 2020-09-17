@@ -33,11 +33,13 @@ export const FooterSubText = styled.p`
   margin-bottom: 20px;
   font-size: 20px;
   text-align: center;
-  padding-left:60px;
+  /* margin-left:150px; */
   color: #080808;
 
   @media screen and (max-width: 820px) {
     width:90%;
+    width: 100%;
+    margin-left: 10px;
 
   }
 `;
@@ -92,7 +94,7 @@ export const FooterLinkItems = styled.div`
   align-items: flex-start;
   margin: 20px;
   text-align: center;
-  width: 400px;
+  width: 550px;
   box-sizing: border-box;
   color: #fff;
   padding-left:0px;
@@ -100,6 +102,7 @@ export const FooterLinkItems = styled.div`
     margin-top: -50px;
     padding: 40px;
     width: 100%;
+    margin-left: -10px;
   }
 `;
 
