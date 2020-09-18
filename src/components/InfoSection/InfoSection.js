@@ -19,7 +19,7 @@ import {
   SubtitleNama,
   Buttons,
   Subtitle1,
-  TextWrapper1,
+  TextWrapper1
 } from './InfoSection.elements';
 
 function InfoSection({

@@ -1,5 +1,8 @@
 import styled from 'styled-components';
 
+
+ 
+
 export const InfoSec = styled.div`
   color: #fff;
   padding: 68px 0;
@@ -30,6 +33,22 @@ export const InfoColumn = styled.div`
 `;
 
 export const Buttons = styled.button`
+
+@keyframes slidingstep1 {
+  0%   { left: -100px; opacity:0;}
+  5%   { left: -75px; opacity:0.2;}
+  10%   { left: -50px; opacity:0.4;}
+  15%   { left: -25px; opacity:0.6;}    
+  20%  { left: 0px;opacity:1; }
+  100% { left: 0px;opacity:1; }
+ }
+
+animation-name: slidingstep1;
+ animation-duration: 10s;
+ animation-iteration-count: 1;         
+ animation-direction: normal;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
   width: 190px;
   height: 37px;
   left: 100px;
@@ -95,7 +114,10 @@ export const textWrapperPop = styled.div`
 `;
 
 
+
 export const TopLine = styled.div`
+
+
   color: ${({ lightTopLine }) => (lightTopLine ? '#a9b3c1' : '#4B59F7')};
   font-size: 18px;
   line-height: 16px;
@@ -114,6 +136,21 @@ export const Img = styled.img`
 `;
 
 export const Heading = styled.h1`
+@keyframes slidingstep1 {
+  0%   { left: -100px; opacity:0;}
+  5%   { left: -75px; opacity:0.2;}
+  10%   { left: -50px; opacity:0.4;}
+  15%   { left: -25px; opacity:0.6;}    
+  20%  { left: 0px;opacity:1; }
+  100% { left: 0px;opacity:1; }
+ }
+
+animation-name: slidingstep1;
+ animation-duration: 10s;
+ animation-iteration-count: 1;         
+ animation-direction: normal;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
   margin-top:40px;
   margin-bottom: 24px;
   font-size: 48px;
@@ -136,6 +173,23 @@ export const Nama = styled.h1`
 
 
 export const Subtitle = styled.p`
+
+@keyframes slidingstep1 {
+  0%   { left: -100px; opacity:0;}
+  5%   { left: -75px; opacity:0.2;}
+  10%   { left: -50px; opacity:0.4;}
+  15%   { left: -25px; opacity:0.6;}    
+  20%  { left: 0px;opacity:1; }
+  100% { left: 0px;opacity:1; }
+ }
+
+animation-name: slidingstep1;
+ animation-duration: 10s;
+ animation-iteration-count: 1;         
+ animation-direction: normal;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
+
   max-width: 440px;
   margin-bottom: 10px;
   font-size: 18px;
@@ -145,6 +199,21 @@ export const Subtitle = styled.p`
 `;
 
 export const Subtitle1 = styled.p`
+@keyframes slidingstep1 {
+  0%   { left: -100px; opacity:0;}
+  5%   { left: -75px; opacity:0.2;}
+  10%   { left: -50px; opacity:0.4;}
+  15%   { left: -25px; opacity:0.6;}    
+  20%  { left: 0px;opacity:1; }
+  100% { left: 0px;opacity:1; }
+ }
+
+animation-name: slidingstep1;
+ animation-duration: 10s;
+ animation-iteration-count: 1;         
+ animation-direction: normal;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
   margin-top: 20px;
   margin-bottom:-44px;
   font-size: 18px;

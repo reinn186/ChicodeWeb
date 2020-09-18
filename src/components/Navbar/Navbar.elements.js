@@ -7,6 +7,22 @@ import { animateScroll as scroll } from "react-scroll";
 
 
 export const Nav = styled.nav`
+@keyframes slidingstep1 {
+  0%   { left: -100px; opacity:0;}
+  5%   { left: -75px; opacity:0.2;}
+  10%   { left: -50px; opacity:0.4;}
+  15%   { left: -25px; opacity:0.6;}    
+  20%  { left: 0px;opacity:1; }
+  100% { left: 0px;opacity:1; }
+ }
+
+animation-name: slidingstep1;
+ animation-duration: 10s;
+ animation-iteration-count: 1;         
+ animation-direction: normal;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
+ 
   background: rgba(255,255,255,0.9);
   height: 60px;
   display: flex;
@@ -32,6 +48,22 @@ export const NavbarContainer = styled(Container)`
 `;
 
 export const NavLogo = styled(Link)`
+@keyframes slidingstep1 {
+  0%   { left: -100px; opacity:0;}
+  5%   { left: -75px; opacity:0.2;}
+  10%   { left: -50px; opacity:0.4;}
+  15%   { left: -25px; opacity:0.6;}    
+  20%  { left: 0px;opacity:1; }
+  100% { left: 0px;opacity:1; }
+ }
+
+animation-name: slidingstep1;
+ animation-duration: 10s;
+ animation-iteration-count: 1;         
+ animation-direction: normal;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
+
   color: #080808;
   justify-self: flex-start;
   cursor: pointer;

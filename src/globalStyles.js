@@ -55,6 +55,14 @@ const GlobalStyle = createGlobalStyle`
 .GambarOrang{
   width:280px;
   height:528px;
+
+  animation-name: slidingstep1;
+ animation-duration: 10s;
+ animation-iteration-count: 1;         
+ animation-direction: normal;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
+
   @media screen and (max-width: 768px) {
     width:140px;
     height:264px;
@@ -65,10 +73,27 @@ const GlobalStyle = createGlobalStyle`
 .GambarOrang2{
   width:280px;
   height:528px;
+
+  animation-name: slidingstep1;
+ animation-duration: 10s;
+ animation-iteration-count: 1;         
+ animation-direction: normal;
+ animation-timing-function: linear;
+ animation-fill-mode: forwards;
+ 
   @media screen and (max-width: 768px) {
     width:140px;
     height:264px;
   }
+}
+
+@keyframes slidingstep1 {
+ 0%   { left: -100px; opacity:0;}
+ 5%   { left: -75px; opacity:0.2;}
+ 10%   { left: -50px; opacity:0.4;}
+ 15%   { left: -25px; opacity:0.6;}    
+ 20%  { left: 0px;opacity:1; }
+ 100% { left: 0px;opacity:1; }
 }
 
 .GambarOrang:hover + .TextHide1 {
@@ -80,8 +105,8 @@ const GlobalStyle = createGlobalStyle`
 .GambarOrang2:hover + .TextHide2 {
  display:block;
 animation: text 2.5s 1;
-
 }
+
 
 .LogoFooter2{
   width:21px;
