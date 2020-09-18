@@ -4,6 +4,11 @@ import { Container, Button } from '../../globalStyles';
 import Panda from '../Panda.png';
 import Andri from '../AndriFix.png';
 import { HashLink as Link} from 'react-router-hash-link';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
+
 import {
   InfoSec,
   InfoRow,
@@ -21,6 +26,7 @@ import {
   Subtitle1,
   TextWrapper1,
 } from './InfoSection.elements';
+AOS.init();
 
 function InfoSection({
   primary,
@@ -41,15 +47,19 @@ function InfoSection({
   imgStart,
   start,
   description1,
-}) {
+}) 
+{
+
+
+  
   return (
     <>
       <InfoSec lightBg={lightBg} id="Home">
-        <Container>
+        <Container >
           <InfoRow>
             <InfoColumn>
           
-              <TextWrapper>
+              <TextWrapper >
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}<span className="Span1">{headline2}</span><span>{headline3}</span></Heading>
                 <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
@@ -65,7 +75,7 @@ function InfoSection({
             <TextWrapper1>
             <Subtitle1 lightTextDesc={lightTextDesc}>{description1}</Subtitle1>
             </TextWrapper1>
-              <ImgWrapper>
+              <ImgWrapper data-aos="fade-right">
               <img src={Panda} className="GambarOrang" alt="Logo" /> 
               <textWrapperPop className="TextHide1">
               <Nama>Fandi</Nama>  
@@ -84,5 +94,6 @@ function InfoSection({
     </>
   );
 }
+
 
 export default InfoSection;
