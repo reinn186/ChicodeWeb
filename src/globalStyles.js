@@ -33,13 +33,24 @@ const GlobalStyle = createGlobalStyle`
 }
 
 
-.TextHide3{
-  display:none;
+/*effect*/
+@keyframes text{
+  0%{
+    margin-bottom:-3px;
+  }
+
+  38%{
+    letter-spacing: 3px;
+    margin-bottom: -3px;
+  }
+
+  85%{
+    letter-spacing: 1px;
+    margin-bottom: -3px;
+  }
 }
 
-.TextHide4{
-  display:none;
-}
+
 
 .GambarOrang{
   width:280px;
@@ -62,30 +73,13 @@ const GlobalStyle = createGlobalStyle`
 
 .GambarOrang:hover + .TextHide1 {
   display:block;
-  color:black;
-  transform: scale(1.06);
-    transition: all 0.3s ease-out;
+  animation: text 2.5s 1;
 }
 
 
 .GambarOrang2:hover + .TextHide2 {
  display:block;
-  color:black;
-  transform: scale(1.06);
-  transition: all 0.3s ease-out;
-
-}
-
-
-.GambarOrang:hover + .TextHide3 {
-  display:block;
-  color:black;
-}
-
-
-.GambarOrang2:hover + .TextHide4 {
- display:block;
-  color:black;
+animation: text 2.5s 1;
 
 }
 

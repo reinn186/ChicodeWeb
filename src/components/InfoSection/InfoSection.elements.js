@@ -65,6 +65,19 @@ export const TextWrapper = styled.div`
   }
 `;
 
+export const TextWrapper1 = styled.div`
+  max-width: 600px;
+   margin-top: 20px;
+  margin-bottom:-44px;
+
+  @media screen and (max-width: 768px) {
+    position: absolute;
+    margin-top: 40px;
+    height:5px;
+    width: 400px;
+  }
+`;
+
 export const ImgWrapper = styled.div`
   max-width: 555px;
   display: flex;
@@ -130,6 +143,21 @@ export const Subtitle = styled.p`
   font-weight: 400;
   color: ${({ lightTextDesc }) => (lightTextDesc ? '#737373' : '#1c2237')};
 `;
+
+export const Subtitle1 = styled.p`
+  margin-top: 20px;
+  margin-bottom:-44px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align:center;
+  color: ${({ lightTextDesc }) => (lightTextDesc ? '#737373' : '#1c2237')};
+
+    @media screen and (max-width: 960px) {
+      margin-top: -30px;
+    }
+`;
+
 
 export const SubtitleNama = styled.p`
   max-width: 440px;

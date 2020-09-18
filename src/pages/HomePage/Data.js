@@ -10,6 +10,7 @@ export const homeObjOne = {
   headline3: 'and We Solve The Problem',
   description:
     'Specialized Website and Application Developments.',
+  description1:'Hover us and click to see Personal Portfolio',
   buttonLabel: 'Contact Us',
   imgStart: '',
   img: require('../../images/svg-1.svg'),

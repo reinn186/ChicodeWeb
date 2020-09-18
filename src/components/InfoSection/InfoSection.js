@@ -18,6 +18,8 @@ import {
   textWrapperPop,
   SubtitleNama,
   Buttons,
+  Subtitle1,
+  TextWrapper1,
 } from './InfoSection.elements';
 
 function InfoSection({
@@ -37,7 +39,8 @@ function InfoSection({
   img,
   alt,
   imgStart,
-  start
+  start,
+  description1,
 }) {
   return (
     <>
@@ -45,6 +48,7 @@ function InfoSection({
         <Container>
           <InfoRow>
             <InfoColumn>
+          
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
                 <Heading lightText={lightText}>{headline}<span className="Span1">{headline2}</span><span>{headline3}</span></Heading>
@@ -58,6 +62,9 @@ function InfoSection({
               </TextWrapper>
             </InfoColumn>
             <InfoColumn>
+            <TextWrapper1>
+            <Subtitle1 lightTextDesc={lightTextDesc}>{description1}</Subtitle1>
+            </TextWrapper1>
               <ImgWrapper>
               <img src={Panda} className="GambarOrang" alt="Logo" /> 
               <textWrapperPop className="TextHide1">
