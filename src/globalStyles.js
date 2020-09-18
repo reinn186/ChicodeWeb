@@ -179,6 +179,22 @@ export const Button = styled.button`
   @media screen and (max-width: 960px) {
     width: 100%;
   }
+
+  .item2 {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  }
+  
+  AOS.init({
+    duration: 1200,
+  })
+
 `;
 
 export default GlobalStyle;
