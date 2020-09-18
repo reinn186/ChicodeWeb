@@ -8,10 +8,9 @@ import Project from './pages/HomePage/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import { Navbar, Footer } from './components';
-import AOS from 'aos';
 
 function App() {
-  AOS.init();
+
 
   return (
     <Router>

@@ -47,7 +47,7 @@ AOS.init({
   
 
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-  offset: 70, // offset (in px) from the original trigger point
+  offset: 150, // offset (in px) from the original trigger point
   delay: 150, // values from 0 to 3000, with step 50ms
   duration: 500, // values from 0 to 3000, with step 50ms
   easing: 'ease-in-out', // default easing for AOS animations
@@ -87,15 +87,15 @@ function About() {
         
         <AboutLinksContainer>
         <AboutLinksWrapper>
-          <AboutLinkItems2>
-            <AboutLinkLogo data-aos="fade-up" ><img className="Ellipse1" src={Ellipse1} alt="Andri"/></AboutLinkLogo>
-            <AboutLinkTitle2 data-aos="fade-right">Reinn</AboutLinkTitle2>
-            <AboutText data-aos="fade-left">UI/UX&Frontend Designer</AboutText>
+          <AboutLinkItems2 data-aos="fade-right">
+            <AboutLinkLogo  ><img className="Ellipse1" src={Ellipse1} alt="Andri"/></AboutLinkLogo>
+            <AboutLinkTitle2 >Reinn</AboutLinkTitle2>
+            <AboutText >UI/UX&Frontend Designer</AboutText>
           </AboutLinkItems2>
-          <AboutLinkItems2>
-          <AboutLinkLogo data-aos="fade-up"><img className="Ellipse1" src={Ellipse2} alt="Fandi"/></AboutLinkLogo>
-            <AboutLinkTitle2 data-aos="fade-right">Fandi</AboutLinkTitle2>
-            <AboutText data-aos="fade-left" >Fullstack Developer</AboutText>
+          <AboutLinkItems2 data-aos="fade-left">
+          <AboutLinkLogo ><img className="Ellipse1" src={Ellipse2} alt="Fandi"/></AboutLinkLogo>
+            <AboutLinkTitle2 >Fandi</AboutLinkTitle2>
+            <AboutText x >Fullstack Developer</AboutText>
           </AboutLinkItems2>
         </AboutLinksWrapper>
       </AboutLinksContainer>    
